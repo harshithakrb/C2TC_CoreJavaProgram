@@ -1,7 +1,6 @@
 //Program to demonstrate Data types
 package Dayone;
 
-
 public class DataTypesDemo {
 
 	public static void main(String[] args) {
@@ -14,7 +13,6 @@ public class DataTypesDemo {
 		System.out.println("value 2=" + value2);
 		System.out.println("value 3=" + value3);
 		System.out.println("value 4=" + value4);
-		
 		
 		int marker = 512;
 		//assigning expression to variable 
