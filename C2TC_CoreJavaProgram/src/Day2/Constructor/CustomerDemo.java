@@ -7,5 +7,8 @@ public class CustomerDemo {
 
 		Customer c2=new Customer(102,"Harshii","Pondy");
 		System.out.println(c2);
+		
+		Customer c3=new Customer("Harshii","Pondy");
+		System.out.println(c3);
 	}
 }

@@ -10,13 +10,23 @@ public class Customer {
 		this.cid=101;
 		this.name="Bannu";
 		this.city="Chennai";
+		System.out.println("Default Constructor has been called");
 	}
 	
-	//Parametarized Constructor
+	//Parameterized Constructor_1
 	public Customer(int cid, String name, String city) {
+		//this(); //calling the default constructor
+		this("unknown","puducherry");
 		this.cid=cid;
 		this.name=name;
 		this.city=city;
+	}
+	
+	//Parameterized Constructor_2
+	public Customer(String name, String city) {
+		this.name=name;
+		this.city=city;
+		System.out.println("Parameterized constructor has been called");
 	}
 	
     //set() get()
