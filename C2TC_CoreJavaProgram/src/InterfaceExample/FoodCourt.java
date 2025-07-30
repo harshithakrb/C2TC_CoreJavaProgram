@@ -6,6 +6,6 @@ public class FoodCourt implements DMart{
 	public void shopping()
 	{
 		System.out.println("Welcome to FoodCourt");
-		System.out.println("We provide offer upto 30%");
+		System.out.println("We provide offer upto 30% o Pizzas");
 	}
 }
