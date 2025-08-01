@@ -16,7 +16,5 @@ public class InterThreadCommunicationDemo {
 		catch(InterruptedException e) {
 			System.out.println(e);
 		}
-
 	}
-
 }
