@@ -1,4 +1,4 @@
-package Daythirteen.ThreadMethod;
+package Daythirteen.ThreadClass;
 
 public class ThreadMethodsDemo {
 
